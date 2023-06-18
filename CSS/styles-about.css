@@ -15,15 +15,35 @@ body {
 
 .panel {
     width: 55%;
-    background-color: #050918;
     color: whitesmoke;
+    background-color: #050918;
     border-radius: 8px;
     padding: 15px;
 }
 
+.photo {
+    width: 35%;
+}
+
 img {
     border-radius: 8px;
-    width: 300px;
-
-    
+    width: 100% ;
 }
+
+@media (max-width: 600px) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .panel {
+        width: 90%;
+    }
+    .photo {
+        width: 55%
+    }
+}
+
