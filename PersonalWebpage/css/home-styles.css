@@ -15,9 +15,6 @@ body {
     color: #7a49a5
 }
 
-@media (max-width: 412px) {
-    .footer-links {
-        width: 100%;
-        margin: 0 15px;
-    }
+.skill-li {
+    margin-left: 0;
 }
