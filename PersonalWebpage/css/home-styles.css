@@ -1,7 +1,3 @@
-    /* font-family: 'Caveat', cursive;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Poppins', sans-serif; */
 body {
     background-color: #F7FFE5;
     font-family: monospace;
@@ -9,4 +5,19 @@ body {
 
 .container-color {
     background-color: #D6E8DB;
+}
+.footer-links {
+    width: 50%;
+}
+
+.hello{
+    font-family: 'Kablammo', cursive;
+    color: #7a49a5
+}
+
+@media (max-width: 412px) {
+    .footer-links {
+        width: 100%;
+        margin: 0 15px;
+    }
 }
