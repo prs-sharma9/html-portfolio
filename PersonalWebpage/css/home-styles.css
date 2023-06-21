@@ -1,0 +1,12 @@
+    /* font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif; */
+body {
+    background-color: #F7FFE5;
+    font-family: monospace;
+}
+
+.container-color {
+    background-color: #D6E8DB;
+}
