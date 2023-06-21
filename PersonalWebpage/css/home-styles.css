@@ -18,3 +18,10 @@ body {
 .skill-li {
     margin-left: 0;
 }
+
+@media (max-width: 400px)  {
+    .footer-links {
+        width: 100%;
+        margin: 0 15px;
+    } 
+}
